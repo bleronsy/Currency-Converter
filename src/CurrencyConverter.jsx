@@ -47,16 +47,6 @@ const CurrencyConverter = () => {
         value={amount}
         onChange={(e) => setAmount(parseFloat(e.target.value))}
       />
-      {/* <select className='select' value={selectedCurrency} onChange={(e) => setSelectedCurrency(e.target.value)}>
-        <option value="">From</option>
-        <option value="EUR">EUR</option>
-        <option value="ALL">ALL</option>
-      </select>
-      <select className='select' value={toCurrency} onChange={(e) => setToCurrency(e.target.value)}>
-        <option value="">To</option>
-        <option value="ALL">ALL</option>
-        <option value="EUR">EUR</option>
-      </select> */}
 
       <select className='select' value={selectedCurrency} onChange={(e) => setSelectedCurrency(e.target.value)}>
         {currrencyList.map((currency) => (
