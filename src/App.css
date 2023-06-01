@@ -1,0 +1,42 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.title{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.input {
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.select {
+  padding: 0.5rem;
+  width: 8rem;
+  margin-right: 1rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 1rem;
+}
